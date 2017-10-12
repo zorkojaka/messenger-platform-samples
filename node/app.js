@@ -311,7 +311,7 @@ function receivedMessage(event) {
         sendTextMessage(senderID, messageText);
     }
   } else if (messageAttachments) {
-    sendTextMessage(senderID, "Message with attachment2 received");
+    sendTextMessage(senderID, "Message with attachment23 received");
   }
 }
 
